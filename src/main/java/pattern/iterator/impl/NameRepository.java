@@ -4,7 +4,7 @@ import pattern.iterator.Container;
 import pattern.iterator.Iterator;
 
 public class NameRepository implements Container {
-	public String names[] = {"Robert", "John", "Julie"};
+	private String names[] = {"Robert", "John", "Julie"};
 
 	public Iterator getIterator() {
 		return new NameIterator();
