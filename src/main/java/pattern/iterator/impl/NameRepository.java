@@ -3,9 +3,6 @@ package pattern.iterator.impl;
 import pattern.iterator.Container;
 import pattern.iterator.Iterator;
 
-/**
- * Created by Constantin Horia.
- */
 public class NameRepository implements Container {
 	public String names[] = {"Robert", "John", "Julie"};
 
